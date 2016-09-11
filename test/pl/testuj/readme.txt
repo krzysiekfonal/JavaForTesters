@@ -1,0 +1,1 @@
+Here will be all tests for Calculator implemented by participants
