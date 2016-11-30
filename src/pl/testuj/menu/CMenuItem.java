@@ -19,17 +19,17 @@ public class CMenuItem {
   }
 
   public String doItemAction(String input) {
-    double[] numbers = parseInput(input);
+    int[] numbers = parseInput(input);
 
     return String.valueOf(operation.process(numbers[0], numbers[1]));
   }
 
-  private double[] parseInput(String input) {
+  private int[] parseInput(String input) {
     String[] elements =  input.split(" ");
-    double[] result = new double[elements.length];
+    int[] result = new int[elements.length];
 
     for (int i = 0; i < elements.length; i++) {
-      result[i] = Double.parseDouble(elements[i]);
+      result[i] = Integer.parseInt(elements[i]);
     }
 
     return result;
