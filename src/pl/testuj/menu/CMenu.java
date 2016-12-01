@@ -74,7 +74,7 @@ public class CMenu {
         + "5. Modulo\n"
         + "6. Percentage\n"
         + "7. Power\n"
-        + "8. Logarithm\n"
+        + "8. Minimum\n"
         + "9. Cut number\n"
         + "0 - to quit");
   }
